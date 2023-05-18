@@ -13,6 +13,7 @@ const config = {
 			$style: 'src/style',
 			$services: 'src/services',
 			$components: 'src/components',
+			$stories: 'src/stories',
 			$types: 'src/@types',
 		},
 	},

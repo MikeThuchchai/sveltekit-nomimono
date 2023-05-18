@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { z } from 'zod'
 
+	import Button from '$components/Button/Button.svelte'
 	import api from '$lib/api'
 	import { testSchema } from '$lib/schema'
 	import swal from '$lib/swal'
@@ -71,6 +72,8 @@
 		<div class="_dp-f _g-6">
 			<button class="nm-button" on:click={showToast}> Toast </button>
 			<button class="nm-button" on:click={showSwal}> Alert </button>
+			<Button>Hello</Button>
+			<Button primary>Hello</Button>
 		</div>
 
 		<form on:submit|preventDefault={submit} class="nm-card lo-12 _g-7">
