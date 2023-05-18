@@ -1,4 +1,21 @@
-# Welcome
+# Sveltekit example
+```bash
+yarn
+```
+## Dev
+
+```bash
+yarn dev
+```
+
+<img width="300" src="markdown-images/2023-05-18-12-04-33.png" />
+
+## Storybook support
+```
+yarn storybook
+```
+
+<img width="300" src="markdown-images/2023-05-18-12-04-00.png"/>
 
 ## Sveltekit + Nomimono CSS
 
@@ -17,6 +34,7 @@
 - eslint
 - prettier
 - stylelint
+- storybook
 
 ### For Vscode please install these extensions
 
