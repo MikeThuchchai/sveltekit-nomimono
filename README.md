@@ -1,8 +1,11 @@
 # SVELTEKIT - DEMO
 - sveltekit
+- ui-theme
 - storybook
 - component package
-- ui-theme
+
+# Start With
+- open `sveltekit-demo.code-workspace`
 
 ## Frontend
 - `cd frontend`
@@ -14,3 +17,4 @@
 - Terminal 1 `yarn dev`
 - Terminal 2 `yarn storybook`
 - Terminal 3 `yarn package --watch`
+- Try to play with `src/lib/components/Button/Button.svelte`
