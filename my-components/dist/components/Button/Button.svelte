@@ -7,5 +7,5 @@ $:
 </script>
 
 <button type="button" class={['nm-button', size, variant].join(' ')} {style} on:click>
-	<slot>{label}</slot>
+	OK - <slot>{label}</slot>
 </button>

@@ -8,7 +8,7 @@
 	import swal from '$lib/swal'
 	import toast from '$lib/toast'
 
-	import { Button } from '../../../components'
+	import { Button } from '../../../my-components'
 
 	let form = {
 		email: undefined,

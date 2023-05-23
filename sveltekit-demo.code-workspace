@@ -7,7 +7,7 @@
 			"path": "frontend"
 		},
 		{
-			"path": "components"
+			"path": "my-components"
 		},
 	],
 	"settings": {
